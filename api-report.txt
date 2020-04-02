@@ -1,0 +1,421 @@
+
+> info2602a2@1.0.0 newman /workspace/info2602a2
+> newman run a2collection.json -g globals.json; return 0;
+
+newman
+
+Assignment 2
+
+→ List Pokemon
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/pokemon [200 OK, 3.42KB, 491ms]
+  1. Pokemon data should have the attributes pid, attack, defence, sp_attack, sp_defence, speed, hp, height, weight, type1 and type2 with an appropriate value or null
+
+→ Sign Up
+  POST https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/signup [200 OK, 670B, 20ms]
+  2. Should respond with 'user created' for new user or 'username or email already exists' for pre-existing user
+
+→ Login
+  POST https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/auth [200 OK, 670B, 13ms]
+  3. Returned Access Token
+
+→ Save My Pokemon
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon [200 OK, 3.42KB, 13ms]
+  POST https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon [200 OK, 670B, 12ms]
+  ✓  Should create a pokemon and add it to the user's listing
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon [200 OK, 3.42KB, 16ms]
+
+→ List My Pokemon
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon [200 OK, 3.42KB, 13ms]
+  4. Pokemon data should have the attributes name and status with the appropriate values
+
+→ Get My Pokemon
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon/1 [200 OK, 3.42KB, 18ms]
+  5. Pokemon data should have the attributes name and status with the appropriate values
+
+→ Update My Pokemon
+  PUT https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon/1 [200 OK, 670B, 12ms]
+  6. Body is correct
+  ✓  Should update the corresponding pokemon
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon/1 [200 OK, 3.42KB, 14ms]
+
+→ Delete My Pokemon
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon [200 OK, 3.42KB, 19ms]
+  DELETE https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon/1 [200 OK, 670B, 23ms]
+  ✓  Should delete pokemon from the user's collection
+  7. Should have the appropriate status code
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon [200 OK, 3.42KB, 18ms]
+
+┌─────────────────────────┬────────────────────┬───────────────────┐
+│                         │           executed │            failed │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│              iterations │                  1 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│                requests │                 13 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│            test-scripts │                  8 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│      prerequest-scripts │                  3 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│              assertions │                 10 │                 7 │
+├─────────────────────────┴────────────────────┴───────────────────┤
+│ total run duration: 1310ms                                       │
+├──────────────────────────────────────────────────────────────────┤
+│ total data received: 24.12KB (approx)                            │
+├──────────────────────────────────────────────────────────────────┤
+│ average response time: 52ms [min: 12ms, max: 491ms, s.d.: 126ms] │
+└──────────────────────────────────────────────────────────────────┘
+
+  #  failure         detail                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                                      
+ 1.  JSONError       Pokemon data should have the attributes pid, attack, defence, sp_attack, sp_defence, speed, hp, height, weight, type1 and type2 with an appropriate value or null                                                                                
+                     Unexpected token '<' at 1:1                                                                                                                                                                                                                      
+                     <!doctype html>                                                                                                                                                                                                                                  
+                     ^                                                                                                                                                                                                                                                
+                     at assertion:0 in test-script                                                                                                                                                                                                                    
+                     inside "List Pokemon"                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                      
+ 2.  AssertionError  Should respond with 'user created' for new user or 'username or email already exists' for pre-existing user                                                                                                                                      
+                     expected '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body bgcolor="white">\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.13.12</center>\r\n</body>\r\n</html>\r\n' to be one of [ Array(2) ]                
+                     at assertion:0 in test-script                                                                                                                                                                                                                    
+                     inside "Sign Up"                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                      
+ 3.  JSONError       Returned Access Token                                                                                                                                                                                                                            
+                     Unexpected token '<' at 1:1                                                                                                                                                                                                                      
+                     <html>                                                                                                                                                                                                                                           
+                     ^                                                                                                                                                                                                                                                
+                     at assertion:0 in test-script                                                                                                                                                                                                                    
+                     inside "Login"                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                      
+ 4.  JSONError       Pokemon data should have the attributes name and status with the appropriate values                                                                                                                                                              
+                     Unexpected token '<' at 1:1                                                                                                                                                                                                                      
+                     <!doctype html>                                                                                                                                                                                                                                  
+                     ^                                                                                                                                                                                                                                                
+                     at assertion:0 in test-script                                                                                                                                                                                                                    
+                     inside "List My Pokemon"                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                      
+ 5.  JSONError       Pokemon data should have the attributes name and status with the appropriate values                                                                                                                                                              
+                     Unexpected token '<' at 1:1                                                                                                                                                                                                                      
+                     <!doctype html>                                                                                                                                                                                                                                  
+                     ^                                                                                                                                                                                                                                                
+                     at assertion:0 in test-script                                                                                                                                                                                                                    
+                     inside "Get My Pokemon"                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                      
+ 6.  AssertionError  Body is correct                                                                                                                                                                                                                                  
+                     expected response body to equal 'Updated' but got '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body bgcolor="white">\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.13.12</center>\r\n</body>\r\n</html>\r\n' 
+                     at assertion:0 in test-script                                                                                                                                                                                                                    
+                     inside "Update My Pokemon"                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                      
+ 7.  AssertionError  Should have the appropriate status code                                                                                                                                                                                                          
+                     expected 200 to deeply equal 204                                                                                                                                                                                                                 
+                     at assertion:1 in test-script                                                                                                                                                                                                                    
+                     inside "Delete My Pokemon"                                                                                                                                                                                                                       
+
+> info2602a2@1.0.0 newman /workspace/info2602a2
+> newman run a2collection.json -g globals.json; return 0;
+
+newman
+
+Assignment 2
+
+→ List Pokemon
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/pokemon [200 OK, 3.42KB, 443ms]
+  1. Pokemon data should have the attributes pid, attack, defence, sp_attack, sp_defence, speed, hp, height, weight, type1 and type2 with an appropriate value or null
+
+→ Sign Up
+  POST https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/signup [200 OK, 670B, 13ms]
+  2. Should respond with 'user created' for new user or 'username or email already exists' for pre-existing user
+
+→ Login
+  POST https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/auth [200 OK, 670B, 11ms]
+  3. Returned Access Token
+
+→ Save My Pokemon
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon [200 OK, 3.42KB, 12ms]
+  POST https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon [200 OK, 670B, 15ms]
+  ✓  Should create a pokemon and add it to the user's listing
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon [200 OK, 3.42KB, 9ms]
+
+→ List My Pokemon
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon [200 OK, 3.42KB, 10ms]
+  4. Pokemon data should have the attributes name and status with the appropriate values
+
+→ Get My Pokemon
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon/1 [200 OK, 3.42KB, 9ms]
+  5. Pokemon data should have the attributes name and status with the appropriate values
+
+→ Update My Pokemon
+  PUT https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon/1 [200 OK, 670B, 9ms]
+  6. Body is correct
+  ✓  Should update the corresponding pokemon
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon/1 [200 OK, 3.42KB, 9ms]
+
+→ Delete My Pokemon
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon [200 OK, 3.42KB, 9ms]
+  DELETE https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon/1 [200 OK, 670B, 16ms]
+  ✓  Should delete pokemon from the user's collection
+  7. Should have the appropriate status code
+  GET https://8080-a8b5d016-4774-4882-b10f-563f0a246f69.ws-us02.gitpod.io/mypokemon [200 OK, 3.42KB, 12ms]
+
+┌─────────────────────────┬───────────────────┬───────────────────┐
+│                         │          executed │            failed │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│              iterations │                 1 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│                requests │                13 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│            test-scripts │                 8 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│      prerequest-scripts │                 3 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│              assertions │                10 │                 7 │
+├─────────────────────────┴───────────────────┴───────────────────┤
+│ total run duration: 1024ms                                      │
+├─────────────────────────────────────────────────────────────────┤
+│ total data received: 24.12KB (approx)                           │
+├─────────────────────────────────────────────────────────────────┤
+│ average response time: 44ms [min: 9ms, max: 443ms, s.d.: 115ms] │
+└─────────────────────────────────────────────────────────────────┘
+
+  #  failure         detail                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                                      
+ 1.  JSONError       Pokemon data should have the attributes pid, attack, defence, sp_attack, sp_defence, speed, hp, height, weight, type1 and type2 with an appropriate value or null                                                                                
+                     Unexpected token '<' at 1:1                                                                                                                                                                                                                      
+                     <!doctype html>                                                                                                                                                                                                                                  
+                     ^                                                                                                                                                                                                                                                
+                     at assertion:0 in test-script                                                                                                                                                                                                                    
+                     inside "List Pokemon"                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                      
+ 2.  AssertionError  Should respond with 'user created' for new user or 'username or email already exists' for pre-existing user                                                                                                                                      
+                     expected '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body bgcolor="white">\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.13.12</center>\r\n</body>\r\n</html>\r\n' to be one of [ Array(2) ]                
+                     at assertion:0 in test-script                                                                                                                                                                                                                    
+                     inside "Sign Up"                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                      
+ 3.  JSONError       Returned Access Token                                                                                                                                                                                                                            
+                     Unexpected token '<' at 1:1                                                                                                                                                                                                                      
+                     <html>                                                                                                                                                                                                                                           
+                     ^                                                                                                                                                                                                                                                
+                     at assertion:0 in test-script                                                                                                                                                                                                                    
+                     inside "Login"                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                      
+ 4.  JSONError       Pokemon data should have the attributes name and status with the appropriate values                                                                                                                                                              
+                     Unexpected token '<' at 1:1                                                                                                                                                                                                                      
+                     <!doctype html>                                                                                                                                                                                                                                  
+                     ^                                                                                                                                                                                                                                                
+                     at assertion:0 in test-script                                                                                                                                                                                                                    
+                     inside "List My Pokemon"                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                      
+ 5.  JSONError       Pokemon data should have the attributes name and status with the appropriate values                                                                                                                                                              
+                     Unexpected token '<' at 1:1                                                                                                                                                                                                                      
+                     <!doctype html>                                                                                                                                                                                                                                  
+                     ^                                                                                                                                                                                                                                                
+                     at assertion:0 in test-script                                                                                                                                                                                                                    
+                     inside "Get My Pokemon"                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                      
+ 6.  AssertionError  Body is correct                                                                                                                                                                                                                                  
+                     expected response body to equal 'Updated' but got '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body bgcolor="white">\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.13.12</center>\r\n</body>\r\n</html>\r\n' 
+                     at assertion:0 in test-script                                                                                                                                                                                                                    
+                     inside "Update My Pokemon"                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                      
+ 7.  AssertionError  Should have the appropriate status code                                                                                                                                                                                                          
+                     expected 200 to deeply equal 204                                                                                                                                                                                                                 
+                     at assertion:1 in test-script                                                                                                                                                                                                                    
+                     inside "Delete My Pokemon"                                                                                                                                                                                                                       
+
+> info2602a2@1.0.0 newman /workspace/info2602a2
+> newman run a2collection.json -g globals.json; return 0;
+
+newman
+
+Assignment 2
+
+→ List Pokemon
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/pokemon [200 OK, 146.97KB, 502ms]
+  ✓  Pokemon data should have the attributes pid, attack, defence, sp_attack, sp_defence, speed, hp, height, weight, type1 and type2 with an appropriate value or null
+
+→ Sign Up
+  POST https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/signup [200 OK, 390B, 17ms]
+  ✓  Should respond with 'user created' for new user or 'username or email already exists' for pre-existing user
+
+→ Login
+  POST https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/auth [401 UNAUTHORIZED, 406B, 16ms]
+  1. Returned Access Token
+
+→ Save My Pokemon
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon [200 OK, 794B, 21ms]
+  POST https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon [201 CREATED, 344B, 36ms]
+  ✓  Should create a pokemon and add it to the user's listing
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon [200 OK, 1012B, 17ms]
+
+→ List My Pokemon
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon [200 OK, 1012B, 21ms]
+  ✓  Pokemon data should have the attributes name and status with the appropriate values
+
+→ Get My Pokemon
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon/1 [200 OK, 574B, 23ms]
+  ✓  Pokemon data should have the attributes name and status with the appropriate values
+
+→ Update My Pokemon
+  PUT https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon/1 [201 CREATED, 337B, 41ms]
+  ✓  Body is correct
+  ✓  Should update the corresponding pokemon
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon/1 [200 OK, 573B, 18ms]
+
+→ Delete My Pokemon
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon [200 OK, 1011B, 19ms]
+  DELETE https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon/1 [204 NO CONTENT, 314B, 41ms]
+  ✓  Should delete pokemon from the user's collection
+  ✓  Should have the appropriate status code
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon [200 OK, 794B, 19ms]
+  ┌
+  │ [ { name: 'judy',
+  │     stats:
+  │      { pid: 150,
+  │        name: 'Mewtwo',
+  │        attack: 150,
+  │        defense: 70,
+  │        hp: 106,
+  │        height: 2,
+  │        sp_attack: 194,
+  │        sp_defense: 120,
+  │        speed: 140,
+  │        type1: 'psychic',
+  │        type2: null,
+  │        weight: 122 } },
+  │   { name: 'judy',
+  │     stats:
+  │      { pid: 150,
+  │        name: 'Mewtwo',
+  │        attack: 150,
+  │        defense: 70,
+  │        hp: 106,
+  │        height: 2,
+  │        sp_attack: 194,
+  │        sp_defense: 120,
+  │        speed: 140,
+  │        type1: 'psychic',
+  │        type2: null,
+  │        weight: 122 } } ], 2
+  └
+
+┌─────────────────────────┬────────────────────┬───────────────────┐
+│                         │           executed │            failed │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│              iterations │                  1 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│                requests │                 13 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│            test-scripts │                  8 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│      prerequest-scripts │                  3 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│              assertions │                 10 │                 1 │
+├─────────────────────────┴────────────────────┴───────────────────┤
+│ total run duration: 1375ms                                       │
+├──────────────────────────────────────────────────────────────────┤
+│ total data received: 149.94KB (approx)                           │
+├──────────────────────────────────────────────────────────────────┤
+│ average response time: 60ms [min: 16ms, max: 502ms, s.d.: 127ms] │
+└──────────────────────────────────────────────────────────────────┘
+
+  #  failure         detail                                                                                               
+                                                                                                                          
+ 1.  AssertionError  Returned Access Token                                                                                
+                     object tested must be an array, a map, an object, a set, a string, or a weakset, but undefined given 
+                     at assertion:0 in test-script                                                                        
+                     inside "Login"                                                                                       
+
+> info2602a2@1.0.0 newman /workspace/info2602a2
+> newman run a2collection.json -g globals.json; return 0;
+
+newman
+
+Assignment 2
+
+→ List Pokemon
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/pokemon [200 OK, 146.97KB, 504ms]
+  ✓  Pokemon data should have the attributes pid, attack, defence, sp_attack, sp_defence, speed, hp, height, weight, type1 and type2 with an appropriate value or null
+
+→ Sign Up
+  POST https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/signup [200 OK, 390B, 19ms]
+  ✓  Should respond with 'user created' for new user or 'username or email already exists' for pre-existing user
+
+→ Login
+  POST https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/auth [200 OK, 507B, 18ms]
+  ✓  Returned Access Token
+
+→ Save My Pokemon
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon [200 OK, 794B, 22ms]
+  POST https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon [201 CREATED, 344B, 29ms]
+  ✓  Should create a pokemon and add it to the user's listing
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon [200 OK, 1012B, 15ms]
+
+→ List My Pokemon
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon [200 OK, 1012B, 15ms]
+  ✓  Pokemon data should have the attributes name and status with the appropriate values
+
+→ Get My Pokemon
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon/1 [200 OK, 574B, 17ms]
+  ✓  Pokemon data should have the attributes name and status with the appropriate values
+
+→ Update My Pokemon
+  PUT https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon/1 [201 CREATED, 337B, 32ms]
+  ✓  Body is correct
+  ✓  Should update the corresponding pokemon
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon/1 [200 OK, 573B, 20ms]
+
+→ Delete My Pokemon
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon [200 OK, 1011B, 22ms]
+  DELETE https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon/1 [204 NO CONTENT, 314B, 45ms]
+  ✓  Should delete pokemon from the user's collection
+  ✓  Should have the appropriate status code
+  GET https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/mypokemon [200 OK, 794B, 17ms]
+  ┌
+  │ [ { name: 'judy',
+  │     stats:
+  │      { pid: 150,
+  │        name: 'Mewtwo',
+  │        attack: 150,
+  │        defense: 70,
+  │        hp: 106,
+  │        height: 2,
+  │        sp_attack: 194,
+  │        sp_defense: 120,
+  │        speed: 140,
+  │        type1: 'psychic',
+  │        type2: null,
+  │        weight: 122 } },
+  │   { name: 'judy',
+  │     stats:
+  │      { pid: 150,
+  │        name: 'Mewtwo',
+  │        attack: 150,
+  │        defense: 70,
+  │        hp: 106,
+  │        height: 2,
+  │        sp_attack: 194,
+  │        sp_defense: 120,
+  │        speed: 140,
+  │        type1: 'psychic',
+  │        type2: null,
+  │        weight: 122 } } ], 2
+  └
+
+┌─────────────────────────┬────────────────────┬───────────────────┐
+│                         │           executed │            failed │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│              iterations │                  1 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│                requests │                 13 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│            test-scripts │                  8 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│      prerequest-scripts │                  3 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│              assertions │                 10 │                 0 │
+├─────────────────────────┴────────────────────┴───────────────────┤
+│ total run duration: 1334ms                                       │
+├──────────────────────────────────────────────────────────────────┤
+│ total data received: 150.05KB (approx)                           │
+├──────────────────────────────────────────────────────────────────┤
+│ average response time: 59ms [min: 15ms, max: 504ms, s.d.: 128ms] │
+└──────────────────────────────────────────────────────────────────┘

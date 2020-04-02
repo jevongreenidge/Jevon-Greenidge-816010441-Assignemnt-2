@@ -1,0 +1,1010 @@
+
+
+  Test Suite 1: Page should have the appropriate title
+    ✓ Check for the "Demo Site" title
+
+
+  1 passing (1s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (1s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (1s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (2s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (2s)
+
+
+
+  0 passing (1ms)
+
+undefined
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (3s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+Page {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  _closed: false,
+  _client:
+   CDPSession {
+     _events:
+      [Object: null prototype] {
+        'Fetch.requestPaused': [Function: bound _onRequestPaused],
+        'Fetch.authRequired': [Function: bound _onAuthRequired],
+        'Network.requestWillBeSent': [Function: bound _onRequestWillBeSent],
+        'Network.requestServedFromCache': [Function: bound _onRequestServedFromCache],
+        'Network.responseReceived': [Function: bound _onResponseReceived],
+        'Network.loadingFinished': [Function: bound _onLoadingFinished],
+        'Network.loadingFailed': [Function: bound _onLoadingFailed],
+        'Page.frameAttached': [Function],
+        'Page.frameNavigated': [Function],
+        'Page.navigatedWithinDocument': [Function],
+        'Page.frameDetached': [Function],
+        'Page.frameStoppedLoading': [Function],
+        'Runtime.executionContextCreated': [Function],
+        'Runtime.executionContextDestroyed': [Function],
+        'Runtime.executionContextsCleared': [Function],
+        'Page.lifecycleEvent': [Function],
+        'Target.attachedToTarget': [Function],
+        'Target.detachedFromTarget': [Function],
+        'Page.domContentEventFired': [Function],
+        'Page.loadEventFired': [Function],
+        'Runtime.consoleAPICalled': [Function],
+        'Runtime.bindingCalled': [Function],
+        'Page.javascriptDialogOpening': [Function],
+        'Runtime.exceptionThrown': [Function],
+        'Inspector.targetCrashed': [Function],
+        'Performance.metrics': [Function],
+        'Log.entryAdded': [Function],
+        'Page.fileChooserOpened': [Function] },
+     _eventsCount: 28,
+     _maxListeners: undefined,
+     _callbacks: Map {},
+     _connection:
+      Connection {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _url:
+         'ws://127.0.0.1:36189/devtools/browser/20b86a52-f81f-41b2-becb-53bdeab7ef2e',
+        _lastId: 19,
+        _callbacks: Map {},
+        _delay: 0,
+        _transport: [WebSocketTransport],
+        _sessions: [Map],
+        _closed: false },
+     _targetType: 'page',
+     _sessionId: '59FBA09C7C7C6B6F2B20ED9D8E137BDE' },
+  _target:
+   Target {
+     _targetInfo:
+      { targetId: '3AFD1413AEBC22869F9D9BCBF12F41F0',
+        type: 'page',
+        title:
+         'https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io',
+        url:
+         'https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/',
+        attached: true,
+        browserContextId: '6DFD5B112491DFE6FD1B50593569C114' },
+     _browserContext:
+      BrowserContext {
+        _events: [Object: null prototype] {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        _connection: [Connection],
+        _browser: [Browser],
+        _id: null },
+     _targetId: '3AFD1413AEBC22869F9D9BCBF12F41F0',
+     _sessionFactory: [Function],
+     _ignoreHTTPSErrors: false,
+     _defaultViewport: null,
+     _screenshotTaskQueue: TaskQueue { _chain: [Promise] },
+     _pagePromise: Promise { [Circular] },
+     _workerPromise: null,
+     _initializedCallback: [Function],
+     _initializedPromise: Promise { true },
+     _closedCallback: [Function],
+     _isClosedPromise: Promise { <pending> },
+     _isInitialized: true },
+  _keyboard:
+   Keyboard {
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '59FBA09C7C7C6B6F2B20ED9D8E137BDE' },
+     _modifiers: 0,
+     _pressedKeys: Set {} },
+  _mouse:
+   Mouse {
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '59FBA09C7C7C6B6F2B20ED9D8E137BDE' },
+     _keyboard:
+      Keyboard { _client: [CDPSession], _modifiers: 0, _pressedKeys: Set {} },
+     _x: 0,
+     _y: 0,
+     _button: 'none' },
+  _timeoutSettings:
+   TimeoutSettings { _defaultTimeout: null, _defaultNavigationTimeout: null },
+  _touchscreen:
+   Touchscreen {
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '59FBA09C7C7C6B6F2B20ED9D8E137BDE' },
+     _keyboard:
+      Keyboard { _client: [CDPSession], _modifiers: 0, _pressedKeys: Set {} } },
+  _accessibility:
+   Accessibility {
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '59FBA09C7C7C6B6F2B20ED9D8E137BDE' } },
+  _frameManager:
+   FrameManager {
+     _events:
+      [Object: null prototype] {
+        [Symbol(Events.FrameManager.FrameAttached)]: [Function],
+        [Symbol(Events.FrameManager.FrameDetached)]: [Function],
+        [Symbol(Events.FrameManager.FrameNavigated)]: [Function] },
+     _eventsCount: 3,
+     _maxListeners: undefined,
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '59FBA09C7C7C6B6F2B20ED9D8E137BDE' },
+     _page: [Circular],
+     _networkManager:
+      NetworkManager {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _client: [CDPSession],
+        _ignoreHTTPSErrors: false,
+        _frameManager: [Circular],
+        _requestIdToRequest: Map {},
+        _requestIdToRequestWillBeSentEvent: Map {},
+        _extraHTTPHeaders: {},
+        _offline: false,
+        _credentials: null,
+        _attemptedAuthentications: Set {},
+        _userRequestInterceptionEnabled: false,
+        _protocolRequestInterceptionEnabled: false,
+        _userCacheDisabled: false,
+        _requestIdToInterceptionId: Map {} },
+     _timeoutSettings:
+      TimeoutSettings { _defaultTimeout: null, _defaultNavigationTimeout: null },
+     _frames: Map { '3AFD1413AEBC22869F9D9BCBF12F41F0' => [Frame] },
+     _contextIdToContext: Map { 3 => [ExecutionContext], 4 => [ExecutionContext] },
+     _isolatedWorlds: Set { '__puppeteer_utility_world__' },
+     _mainFrame:
+      Frame {
+        _frameManager: [Circular],
+        _client: [CDPSession],
+        _parentFrame: null,
+        _url:
+         'https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/',
+        _id: '3AFD1413AEBC22869F9D9BCBF12F41F0',
+        _detached: false,
+        _loaderId: '0E2AD974926A723AC3B1C7CBAFF6945F',
+        _lifecycleEvents: [Set],
+        _mainWorld: [DOMWorld],
+        _secondaryWorld: [DOMWorld],
+        _childFrames: Set {},
+        _name: undefined,
+        _navigationURL:
+         'https://8080-eff293cb-ed70-48df-aea9-42af1fa44109.ws-us02.gitpod.io/' } },
+  _emulationManager:
+   EmulationManager {
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '59FBA09C7C7C6B6F2B20ED9D8E137BDE' },
+     _emulatingMobile: false,
+     _hasTouch: false },
+  _tracing:
+   Tracing {
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '59FBA09C7C7C6B6F2B20ED9D8E137BDE' },
+     _recording: false,
+     _path: '' },
+  _pageBindings: Map {},
+  _coverage:
+   Coverage {
+     _jsCoverage:
+      JSCoverage {
+        _client: [CDPSession],
+        _enabled: false,
+        _scriptURLs: Map {},
+        _scriptSources: Map {},
+        _eventListeners: [],
+        _resetOnNavigation: false },
+     _cssCoverage:
+      CSSCoverage {
+        _client: [CDPSession],
+        _enabled: false,
+        _stylesheetURLs: Map {},
+        _stylesheetSources: Map {},
+        _eventListeners: [],
+        _resetOnNavigation: false } },
+  _javascriptEnabled: true,
+  _viewport: null,
+  _screenshotTaskQueue: TaskQueue { _chain: Promise { undefined } },
+  _workers: Map {},
+  _fileChooserInterceptors: Set {} }
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (2s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+Promise { <pending> }
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (1s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+[ ElementHandle {
+    _context:
+     ExecutionContext { _client: [CDPSession], _world: [DOMWorld], _contextId: 3 },
+    _client:
+     CDPSession {
+       _events: [Object],
+       _eventsCount: 28,
+       _maxListeners: undefined,
+       _callbacks: Map {},
+       _connection: [Connection],
+       _targetType: 'page',
+       _sessionId: '858F4F1B71EDF3B5445BA9F9AA013783' },
+    _remoteObject:
+     { type: 'object',
+       subtype: 'node',
+       className: 'HTMLTableRowElement',
+       description: 'tr',
+       objectId: '{"injectedScriptId":3,"id":6}' },
+    _disposed: false,
+    _page:
+     Page {
+       _events: [Object: null prototype] {},
+       _eventsCount: 0,
+       _maxListeners: undefined,
+       _closed: false,
+       _client: [CDPSession],
+       _target: [Target],
+       _keyboard: [Keyboard],
+       _mouse: [Mouse],
+       _timeoutSettings: [TimeoutSettings],
+       _touchscreen: [Touchscreen],
+       _accessibility: [Accessibility],
+       _frameManager: [FrameManager],
+       _emulationManager: [EmulationManager],
+       _tracing: [Tracing],
+       _pageBindings: Map {},
+       _coverage: [Coverage],
+       _javascriptEnabled: true,
+       _viewport: null,
+       _screenshotTaskQueue: [TaskQueue],
+       _workers: Map {},
+       _fileChooserInterceptors: Set {} },
+    _frameManager:
+     FrameManager {
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _client: [CDPSession],
+       _page: [Page],
+       _networkManager: [NetworkManager],
+       _timeoutSettings: [TimeoutSettings],
+       _frames: [Map],
+       _contextIdToContext: [Map],
+       _isolatedWorlds: [Set],
+       _mainFrame: [Frame] } } ]
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (1s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+JSHandle@node
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (1s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+undefined
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (1s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+undefined
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (2s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+undefined
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (2s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+undefined
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (2s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+[ ElementHandle {
+    _context:
+     ExecutionContext { _client: [CDPSession], _world: [DOMWorld], _contextId: 3 },
+    _client:
+     CDPSession {
+       _events: [Object],
+       _eventsCount: 28,
+       _maxListeners: undefined,
+       _callbacks: Map {},
+       _connection: [Connection],
+       _targetType: 'page',
+       _sessionId: 'E78B6ED5E940FA4CBA4EBAA3F98DB4E7' },
+    _remoteObject:
+     { type: 'object',
+       subtype: 'node',
+       className: 'HTMLTableRowElement',
+       description: 'tr',
+       objectId: '{"injectedScriptId":3,"id":6}' },
+    _disposed: false,
+    _page:
+     Page {
+       _events: [Object: null prototype] {},
+       _eventsCount: 0,
+       _maxListeners: undefined,
+       _closed: false,
+       _client: [CDPSession],
+       _target: [Target],
+       _keyboard: [Keyboard],
+       _mouse: [Mouse],
+       _timeoutSettings: [TimeoutSettings],
+       _touchscreen: [Touchscreen],
+       _accessibility: [Accessibility],
+       _frameManager: [FrameManager],
+       _emulationManager: [EmulationManager],
+       _tracing: [Tracing],
+       _pageBindings: Map {},
+       _coverage: [Coverage],
+       _javascriptEnabled: true,
+       _viewport: null,
+       _screenshotTaskQueue: [TaskQueue],
+       _workers: Map {},
+       _fileChooserInterceptors: Set {} },
+    _frameManager:
+     FrameManager {
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _client: [CDPSession],
+       _page: [Page],
+       _networkManager: [NetworkManager],
+       _timeoutSettings: [TimeoutSettings],
+       _frames: [Map],
+       _contextIdToContext: [Map],
+       _isolatedWorlds: [Set],
+       _mainFrame: [Frame] } } ]
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (2s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+[ ElementHandle {
+    _context:
+     ExecutionContext { _client: [CDPSession], _world: [DOMWorld], _contextId: 3 },
+    _client:
+     CDPSession {
+       _events: [Object],
+       _eventsCount: 28,
+       _maxListeners: undefined,
+       _callbacks: Map {},
+       _connection: [Connection],
+       _targetType: 'page',
+       _sessionId: 'E4F5B2BD063A082E83CA93FE812E44A5' },
+    _remoteObject:
+     { type: 'object',
+       subtype: 'node',
+       className: 'HTMLTableCellElement',
+       description: 'th',
+       objectId: '{"injectedScriptId":3,"id":6}' },
+    _disposed: false,
+    _page:
+     Page {
+       _events: [Object: null prototype] {},
+       _eventsCount: 0,
+       _maxListeners: undefined,
+       _closed: false,
+       _client: [CDPSession],
+       _target: [Target],
+       _keyboard: [Keyboard],
+       _mouse: [Mouse],
+       _timeoutSettings: [TimeoutSettings],
+       _touchscreen: [Touchscreen],
+       _accessibility: [Accessibility],
+       _frameManager: [FrameManager],
+       _emulationManager: [EmulationManager],
+       _tracing: [Tracing],
+       _pageBindings: Map {},
+       _coverage: [Coverage],
+       _javascriptEnabled: true,
+       _viewport: null,
+       _screenshotTaskQueue: [TaskQueue],
+       _workers: Map {},
+       _fileChooserInterceptors: Set {} },
+    _frameManager:
+     FrameManager {
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _client: [CDPSession],
+       _page: [Page],
+       _networkManager: [NetworkManager],
+       _timeoutSettings: [TimeoutSettings],
+       _frames: [Map],
+       _contextIdToContext: [Map],
+       _isolatedWorlds: [Set],
+       _mainFrame: [Frame] } },
+  ElementHandle {
+    _context:
+     ExecutionContext { _client: [CDPSession], _world: [DOMWorld], _contextId: 3 },
+    _client:
+     CDPSession {
+       _events: [Object],
+       _eventsCount: 28,
+       _maxListeners: undefined,
+       _callbacks: Map {},
+       _connection: [Connection],
+       _targetType: 'page',
+       _sessionId: 'E4F5B2BD063A082E83CA93FE812E44A5' },
+    _remoteObject:
+     { type: 'object',
+       subtype: 'node',
+       className: 'HTMLTableCellElement',
+       description: 'th',
+       objectId: '{"injectedScriptId":3,"id":7}' },
+    _disposed: false,
+    _page:
+     Page {
+       _events: [Object: null prototype] {},
+       _eventsCount: 0,
+       _maxListeners: undefined,
+       _closed: false,
+       _client: [CDPSession],
+       _target: [Target],
+       _keyboard: [Keyboard],
+       _mouse: [Mouse],
+       _timeoutSettings: [TimeoutSettings],
+       _touchscreen: [Touchscreen],
+       _accessibility: [Accessibility],
+       _frameManager: [FrameManager],
+       _emulationManager: [EmulationManager],
+       _tracing: [Tracing],
+       _pageBindings: Map {},
+       _coverage: [Coverage],
+       _javascriptEnabled: true,
+       _viewport: null,
+       _screenshotTaskQueue: [TaskQueue],
+       _workers: Map {},
+       _fileChooserInterceptors: Set {} },
+    _frameManager:
+     FrameManager {
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _client: [CDPSession],
+       _page: [Page],
+       _networkManager: [NetworkManager],
+       _timeoutSettings: [TimeoutSettings],
+       _frames: [Map],
+       _contextIdToContext: [Map],
+       _isolatedWorlds: [Set],
+       _mainFrame: [Frame] } },
+  ElementHandle {
+    _context:
+     ExecutionContext { _client: [CDPSession], _world: [DOMWorld], _contextId: 3 },
+    _client:
+     CDPSession {
+       _events: [Object],
+       _eventsCount: 28,
+       _maxListeners: undefined,
+       _callbacks: Map {},
+       _connection: [Connection],
+       _targetType: 'page',
+       _sessionId: 'E4F5B2BD063A082E83CA93FE812E44A5' },
+    _remoteObject:
+     { type: 'object',
+       subtype: 'node',
+       className: 'HTMLTableCellElement',
+       description: 'th',
+       objectId: '{"injectedScriptId":3,"id":8}' },
+    _disposed: false,
+    _page:
+     Page {
+       _events: [Object: null prototype] {},
+       _eventsCount: 0,
+       _maxListeners: undefined,
+       _closed: false,
+       _client: [CDPSession],
+       _target: [Target],
+       _keyboard: [Keyboard],
+       _mouse: [Mouse],
+       _timeoutSettings: [TimeoutSettings],
+       _touchscreen: [Touchscreen],
+       _accessibility: [Accessibility],
+       _frameManager: [FrameManager],
+       _emulationManager: [EmulationManager],
+       _tracing: [Tracing],
+       _pageBindings: Map {},
+       _coverage: [Coverage],
+       _javascriptEnabled: true,
+       _viewport: null,
+       _screenshotTaskQueue: [TaskQueue],
+       _workers: Map {},
+       _fileChooserInterceptors: Set {} },
+    _frameManager:
+     FrameManager {
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _client: [CDPSession],
+       _page: [Page],
+       _networkManager: [NetworkManager],
+       _timeoutSettings: [TimeoutSettings],
+       _frames: [Map],
+       _contextIdToContext: [Map],
+       _isolatedWorlds: [Set],
+       _mainFrame: [Frame] } },
+  ElementHandle {
+    _context:
+     ExecutionContext { _client: [CDPSession], _world: [DOMWorld], _contextId: 3 },
+    _client:
+     CDPSession {
+       _events: [Object],
+       _eventsCount: 28,
+       _maxListeners: undefined,
+       _callbacks: Map {},
+       _connection: [Connection],
+       _targetType: 'page',
+       _sessionId: 'E4F5B2BD063A082E83CA93FE812E44A5' },
+    _remoteObject:
+     { type: 'object',
+       subtype: 'node',
+       className: 'HTMLTableCellElement',
+       description: 'th',
+       objectId: '{"injectedScriptId":3,"id":9}' },
+    _disposed: false,
+    _page:
+     Page {
+       _events: [Object: null prototype] {},
+       _eventsCount: 0,
+       _maxListeners: undefined,
+       _closed: false,
+       _client: [CDPSession],
+       _target: [Target],
+       _keyboard: [Keyboard],
+       _mouse: [Mouse],
+       _timeoutSettings: [TimeoutSettings],
+       _touchscreen: [Touchscreen],
+       _accessibility: [Accessibility],
+       _frameManager: [FrameManager],
+       _emulationManager: [EmulationManager],
+       _tracing: [Tracing],
+       _pageBindings: Map {},
+       _coverage: [Coverage],
+       _javascriptEnabled: true,
+       _viewport: null,
+       _screenshotTaskQueue: [TaskQueue],
+       _workers: Map {},
+       _fileChooserInterceptors: Set {} },
+    _frameManager:
+     FrameManager {
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _client: [CDPSession],
+       _page: [Page],
+       _networkManager: [NetworkManager],
+       _timeoutSettings: [TimeoutSettings],
+       _frames: [Map],
+       _contextIdToContext: [Map],
+       _isolatedWorlds: [Set],
+       _mainFrame: [Frame] } },
+  ElementHandle {
+    _context:
+     ExecutionContext { _client: [CDPSession], _world: [DOMWorld], _contextId: 3 },
+    _client:
+     CDPSession {
+       _events: [Object],
+       _eventsCount: 28,
+       _maxListeners: undefined,
+       _callbacks: Map {},
+       _connection: [Connection],
+       _targetType: 'page',
+       _sessionId: 'E4F5B2BD063A082E83CA93FE812E44A5' },
+    _remoteObject:
+     { type: 'object',
+       subtype: 'node',
+       className: 'HTMLTableCellElement',
+       description: 'th',
+       objectId: '{"injectedScriptId":3,"id":10}' },
+    _disposed: false,
+    _page:
+     Page {
+       _events: [Object: null prototype] {},
+       _eventsCount: 0,
+       _maxListeners: undefined,
+       _closed: false,
+       _client: [CDPSession],
+       _target: [Target],
+       _keyboard: [Keyboard],
+       _mouse: [Mouse],
+       _timeoutSettings: [TimeoutSettings],
+       _touchscreen: [Touchscreen],
+       _accessibility: [Accessibility],
+       _frameManager: [FrameManager],
+       _emulationManager: [EmulationManager],
+       _tracing: [Tracing],
+       _pageBindings: Map {},
+       _coverage: [Coverage],
+       _javascriptEnabled: true,
+       _viewport: null,
+       _screenshotTaskQueue: [TaskQueue],
+       _workers: Map {},
+       _fileChooserInterceptors: Set {} },
+    _frameManager:
+     FrameManager {
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _client: [CDPSession],
+       _page: [Page],
+       _networkManager: [NetworkManager],
+       _timeoutSettings: [TimeoutSettings],
+       _frames: [Map],
+       _contextIdToContext: [Map],
+       _isolatedWorlds: [Set],
+       _mainFrame: [Frame] } } ]
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (1s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+[ ElementHandle {
+    _context:
+     ExecutionContext { _client: [CDPSession], _world: [DOMWorld], _contextId: 3 },
+    _client:
+     CDPSession {
+       _events: [Object],
+       _eventsCount: 28,
+       _maxListeners: undefined,
+       _callbacks: Map {},
+       _connection: [Connection],
+       _targetType: 'page',
+       _sessionId: '8DD60F28CDF04AE1A365C613D504032D' },
+    _remoteObject:
+     { type: 'object',
+       subtype: 'node',
+       className: 'HTMLTableRowElement',
+       description: 'tr',
+       objectId: '{"injectedScriptId":3,"id":6}' },
+    _disposed: false,
+    _page:
+     Page {
+       _events: [Object: null prototype] {},
+       _eventsCount: 0,
+       _maxListeners: undefined,
+       _closed: false,
+       _client: [CDPSession],
+       _target: [Target],
+       _keyboard: [Keyboard],
+       _mouse: [Mouse],
+       _timeoutSettings: [TimeoutSettings],
+       _touchscreen: [Touchscreen],
+       _accessibility: [Accessibility],
+       _frameManager: [FrameManager],
+       _emulationManager: [EmulationManager],
+       _tracing: [Tracing],
+       _pageBindings: Map {},
+       _coverage: [Coverage],
+       _javascriptEnabled: true,
+       _viewport: null,
+       _screenshotTaskQueue: [TaskQueue],
+       _workers: Map {},
+       _fileChooserInterceptors: Set {} },
+    _frameManager:
+     FrameManager {
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _client: [CDPSession],
+       _page: [Page],
+       _networkManager: [NetworkManager],
+       _timeoutSettings: [TimeoutSettings],
+       _frames: [Map],
+       _contextIdToContext: [Map],
+       _isolatedWorlds: [Set],
+       _mainFrame: [Frame] } } ]
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (1s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+[]
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (1s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (1s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (1s)
+
+
+
+  Test Suite 1: The Pokelisting Table
+    ✓ Should have an tabulation of pigeon data of the appropriate structure
+    ✓ Should have 5 columns
+    ✓ Should have 50 rows
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+    ✓ Should have "Bulbasaur in first column of first row
+
+
+  8 passing (1s)
+
